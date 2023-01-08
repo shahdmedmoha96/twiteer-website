@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family:  'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+header {
+   
+    width: 29%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   padding: 10px 0;
+   position: fixed;
+}
+header .nav_linls{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: space-between;
+   transition: 0.2s;
+   padding:10px 0 13px  60% ;
+}
+header .nav_linls a:hover,
+header  .main_account .account:hover{
+    background-color: #333;
+    border-radius: 9999px;
+    
+}
+header .nav_linls a{
+    color: white;
+    padding:8px 25px 8px 8px  ;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+  width: fit-content;
+  font-size: 2rem;
+}
+header .nav_linls a span{
+   margin-left: 10px;
+   font-size: 13px;
+   font-weight: 400;
+}
+header .nav_linls button{
+    display: block;
+    width: 150px;
+    color: white;
+    background-color: rgb(26, 155, 240);
+    border-radius: 9999px;
+    padding: 5px 20px;
+    font: 700;
+    transition: 0.2s;
+}
+header .nav_linls button:hover{
+    background-color: rgba(26, 155, 240,0.9);
+}
+header  .main_account{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    margin-bottom: 30px;
+
+}
+header  .main_account .account{
+    display: flex;
+position: absolute;
+right: 0;
+bottom: 0;
+transition: 0.2s;
+padding: 10px 20px;
+}
+ img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+header  .main_account .text{
+    color: white;
+    display: flex;
+    margin-right: 40px;
+}
+header  .main_account .text h2{
+    font-size: 12px;
+    font-weight: 500;
+}
+header  .main_account .text p{
+    color: #999;
+}
+header  .main_account i{
+    color: white;}
+
+
+    main{
+        width: 70%;
+        height: 100vh;
+        margin-left: 30%;
+        color: white;
+        padding: 18px 50px;
+        display: flex;
+    }
+    main .main_feed{
+        width: 50%;
+        border-left: 1px solid rgb(47, 51, 54);
+        border-right: 1px solid rgb(47, 51, 54);
+    }
+    main .main_feed h2{
+         padding:8px 25px 8px 8px  ;
+         font-size: 2rem;
+         font-weight: 500;
+         margin-bottom: 10px;
+       
+    }
+    .pro{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        position: sticky;
+        color: white;
+        top: 0;
+        width: 100%;
+        height: 55px;
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 0 8px;
+     
+    }
+   
+    main .contain_main .cont{
+        display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-bottom: 1px solid #333;
+}
+main .contain_main .cont .text{
+    display: flex;
+}
+main .contain_main .cont .text .text-main input{
+    color:#999;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    background-color: black;
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+i{
+    cursor: pointer;
+}
+main .contain_main .cont .text .text-main i{
+    color:rgba(26, 155, 240,0.9);
+    margin-right: 8px;
+    
+}
+        main .contain_main button{
+          height: fit-content;
+          width: 75px;
+          color: white;
+          background-color: rgb(26, 155, 240);
+          border-radius: 9999px;
+          padding: 5px 20px;
+          font: 700;
+          transition: 0.2s;
+          margin-top: 65px;
+          margin-right: 10px;
+          border: none;
+      }
+      main .conts{
+        margin-top: 10px;
+        padding-bottom: 15px;
+    border-bottom: 1px solid #333;
+    padding-left: 15px;
+      }
+     main .container{
+ display: flex;
+    justify-content: space-between;
+     
+     }
+     main .conts .text{
+        display: flex;
+        margin:0;
+        margin-bottom: 10px;
+     } 
+     main .conts .text h4{
+        margin: 0;
+        font-size: 12px;
+        font-weight: 400;
+     } 
+     
+     main .conts .more{
+        right: 0;
+     }
+     main .conts .text h4 span{
+        color:#333;
+     }
+     main .conts .text p{
+        font-size: 13px;
+        font-size: 400;
+        line-height: 1.8;
+     }
+     main .conts .ico{
+        display: flex;
+        justify-content: space-around;
+     } 
+     main .conts  i{
+        color:#333
+     }
+     main .main_side{
+        width: 50%;
+        left:40%;
+        padding:  10px 20px;
+       
+     }
+     main .main_side form {
+        background-color: black;
+         position: sticky;
+         width: 100%;
+         top:0;
+         height: 55px;
+     }
+     main .main_side form input{
+        width: 100%;
+        border-radius: 99999px;
+        padding: 10px 10px 10px 20px;
+        background-color: #333;
+        border: none;
+        outline: none;
+        margin-top: 5px;;
+        margin-bottom: 5px;;
+      
+     }
+     main .main_side  .container{
+        display: flex;
+        flex-direction: column;
+    background-color: #333;
+    margin-top: 30px;
+padding: 10px;
+border-radius: 20px;
+    }
+    main .main_side  .container .cont{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    main .main_side  .container h2{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    main .main_side  .container p{
+        color:#888;
+    }
+    main .main_side  .container h3{
+        margin-top: 6px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    main .main_side  span{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 13px;
+        font-weight: 400;
+        color: rgba(26, 155, 240,0.9);;
+    }
+    main .main_side  .accounts{
+        background-color: #333;
+        margin-top: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    }
+    main .main_side  .acount{
+        display: flex;
+        justify-content:space-between;
+        margin-top: 15px;
+    }
+    main .main_side  .acount .text{
+        display: flex;
+        margin-right: 10px;
+    }
+    main .main_side  .acount h3{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    main .main_side  .acount h3 p{
+        color: #888;
+        font-size: 10px;
+    }
+    main .main_side  .acount button{
+        height: fit-content;
+        padding:  3px 13px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        font-size: 13px;
+    }
